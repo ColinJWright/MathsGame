@@ -779,7 +779,7 @@ MonoBehaviour:
     - 7
     - 30
     - 20
-    correctTube: 3
+    correctTube: 2
   - firstNumber: 6
     secondNumber: 17
     operation: 0
@@ -788,7 +788,7 @@ MonoBehaviour:
     - 24
     - 11
     - 23
-    correctTube: 4
+    correctTube: 3
   - firstNumber: 36
     secondNumber: 4
     operation: 3
@@ -797,7 +797,7 @@ MonoBehaviour:
     - 8
     - 40
     - 32
-    correctTube: 1
+    correctTube: 0
   curProblem: 0
   timePerProblem: 15
   remainingTime: 0
