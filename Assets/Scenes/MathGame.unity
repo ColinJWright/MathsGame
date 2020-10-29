@@ -1624,6 +1624,7 @@ GameObject:
   - component: {fileID: 982065025}
   - component: {fileID: 982065027}
   - component: {fileID: 982065026}
+  - component: {fileID: 982065028}
   m_Layer: 0
   m_Name: Tube (1)
   m_TagString: ProblemTube
@@ -1655,7 +1656,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.0046761036, y: -0.42396677}
@@ -1721,6 +1722,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &982065028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 982065024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f57a442097e2384b8a0e02dc2db1a6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tubeId: 1
 --- !u!1 &1003766300
 GameObject:
   m_ObjectHideFlags: 0
@@ -2815,6 +2829,7 @@ GameObject:
   - component: {fileID: 1484125468}
   - component: {fileID: 1484125470}
   - component: {fileID: 1484125469}
+  - component: {fileID: 1484125471}
   m_Layer: 0
   m_Name: Tube (2)
   m_TagString: ProblemTube
@@ -2846,7 +2861,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.0046761036, y: -0.42396677}
@@ -2912,6 +2927,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1484125471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1484125467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f57a442097e2384b8a0e02dc2db1a6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tubeId: 2
 --- !u!1 &1499009955
 GameObject:
   m_ObjectHideFlags: 0
@@ -3283,6 +3311,7 @@ GameObject:
   - component: {fileID: 1770220221}
   - component: {fileID: 1770220223}
   - component: {fileID: 1770220222}
+  - component: {fileID: 1770220224}
   m_Layer: 0
   m_Name: Tube
   m_TagString: ProblemTube
@@ -3314,7 +3343,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.0046761036, y: -0.42396677}
@@ -3380,6 +3409,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1770220224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1770220220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f57a442097e2384b8a0e02dc2db1a6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tubeId: 0
 --- !u!1 &1829690538
 GameObject:
   m_ObjectHideFlags: 0
@@ -3391,6 +3433,7 @@ GameObject:
   - component: {fileID: 1829690539}
   - component: {fileID: 1829690541}
   - component: {fileID: 1829690540}
+  - component: {fileID: 1829690542}
   m_Layer: 0
   m_Name: Tube (3)
   m_TagString: ProblemTube
@@ -3422,7 +3465,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.0046761036, y: -0.42396677}
@@ -3488,6 +3531,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1829690542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1829690538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f57a442097e2384b8a0e02dc2db1a6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tubeId: 3
 --- !u!1 &1884155552
 GameObject:
   m_ObjectHideFlags: 0
