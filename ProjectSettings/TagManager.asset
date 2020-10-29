@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Obstacle
+  - ProblemTube
+  - Floor
   layers:
   - Default
   - TransparentFX
@@ -13,8 +16,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - PostProcessing
+  - Player
   - 
   - 
   - 
@@ -40,4 +43,19 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Jetpack
+    uniqueID: 2574638653
+    locked: 0
+  - name: Player
+    uniqueID: 4099861289
+    locked: 0
+  - name: Obstacle
+    uniqueID: 1477137737
+    locked: 0
+  - name: Ship
+    uniqueID: 1196489353
+    locked: 0
+  - name: UI
+    uniqueID: 2615813281
     locked: 0
