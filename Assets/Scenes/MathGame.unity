@@ -1396,6 +1396,12 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!198 &1012382081 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 198346318555282658, guid: 86d5b51ea8c4b874f88dca9f746d043f,
+    type: 3}
+  m_PrefabInstance: {fileID: 906307032}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1026141938
 GameObject:
   m_ObjectHideFlags: 0
@@ -2813,6 +2819,7 @@ GameObject:
   - component: {fileID: 1902952170}
   - component: {fileID: 1902952169}
   - component: {fileID: 1902952168}
+  - component: {fileID: 1902952173}
   m_Layer: 9
   m_Name: Player
   m_TagString: Player
@@ -2941,6 +2948,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1902952173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1902952167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1562f83ccc8a434db3a21a5f0630634, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  curState: 0
+  moveSpeed: 4
+  flyingForce: 0.3
+  stunDuration: 2
+  rig: {fileID: 1902952170}
+  anim: {fileID: 1902952168}
+  jetpackParticle: {fileID: 1012382081}
 --- !u!1 &1903375552
 GameObject:
   m_ObjectHideFlags: 0
