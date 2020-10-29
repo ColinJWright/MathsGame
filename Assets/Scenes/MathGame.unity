@@ -702,6 +702,7 @@ GameObject:
   - component: {fileID: 532624844}
   - component: {fileID: 532624843}
   - component: {fileID: 532624846}
+  - component: {fileID: 532624847}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -801,6 +802,26 @@ MonoBehaviour:
   timePerProblem: 15
   remainingTime: 0
   player: {fileID: 1902952173}
+--- !u!114 &532624847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 532624842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb64b22cc98cff469ce0015f27b7ce4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  problemText: {fileID: 1504542447}
+  answerTexts:
+  - {fileID: 921431675}
+  - {fileID: 1537595938}
+  - {fileID: 452356404}
+  - {fileID: 1918707484}
+  timeDial: {fileID: 318911405}
+  endText: {fileID: 1624340460}
 --- !u!1 &672675422
 GameObject:
   m_ObjectHideFlags: 0
