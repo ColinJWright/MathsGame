@@ -45,17 +45,17 @@ TagManager:
     uniqueID: 0
     locked: 0
   - name: Jetpack
-    uniqueID: 2574638653
+    uniqueID: 517189087
     locked: 0
   - name: Player
-    uniqueID: 4099861289
+    uniqueID: 3168626027
     locked: 0
   - name: Obstacle
-    uniqueID: 1477137737
+    uniqueID: 2384498823
     locked: 0
   - name: Ship
-    uniqueID: 1196489353
+    uniqueID: 4234550823
     locked: 0
   - name: UI
-    uniqueID: 2615813281
+    uniqueID: 2840716553
     locked: 0
