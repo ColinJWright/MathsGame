@@ -724,7 +724,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   obstaclePool: {fileID: 532624844}
   minSpawnY: -3
-  maxSpawnY: 1.5
+  maxSpawnY: 2.1
   spawnRate: 1
 --- !u!114 &532624844
 MonoBehaviour:
@@ -3787,7 +3787,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1902952167}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.05, y: -3.54, z: 0}
+  m_LocalPosition: {x: -0.21, y: -3.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 906307033}
